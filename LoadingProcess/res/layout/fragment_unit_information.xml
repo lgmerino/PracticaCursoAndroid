@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+     android:layout_marginLeft="5dp">
+
+    <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:paddingTop="1dip"
+	    android:paddingBottom="1dip" >
+	     <TextView
+	    	android:id="@+id/txtBooking"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="22sp"
+		    android:maxLines="1"
+		    android:layout_marginLeft="0dp"
+		    android:layout_marginRight="5dp"
+		    android:text="@string/booking"
+		    android:textStyle="bold" />
+	     <TextView
+	    	android:id="@+id/booking"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="22sp"
+		    android:maxLines="1" />
+     </LinearLayout>
+     
+     
+     <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:paddingTop="1dip"
+	    android:paddingBottom="1dip" >
+	    <TextView
+		   	android:id="@+id/txtCustomer"
+			android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="22sp"
+		    android:maxLines="1"
+		    android:layout_marginLeft="0dp"
+		    android:layout_marginRight="5dp"
+		    android:text="@string/customer"
+		    android:textStyle="bold" />
+	    <TextView
+	    	android:id="@+id/customer"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="22sp"
+		    android:maxLines="1" />
+     </LinearLayout>
+     
+     
+     <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:paddingTop="1dip"
+	    android:paddingBottom="1dip" >
+	     <TextView
+	    	android:id="@+id/txtMake"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="22sp"
+		    android:maxLines="1"
+		    android:layout_marginLeft="0dp"
+		    android:layout_marginRight="5dp"
+		    android:text="@string/make"
+		    android:textStyle="bold" />
+	     <TextView
+	    	android:id="@+id/make"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="22sp"
+		    android:maxLines="1" />
+	</LinearLayout>
+     
+     
+     <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:paddingTop="1dip"
+	    android:paddingBottom="1dip" >
+	     <TextView
+	    	android:id="@+id/txtModel"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="22sp"
+		    android:maxLines="1"
+		    android:layout_marginLeft="0dp"
+		    android:layout_marginRight="5dp"
+		    android:text="@string/model"
+		    android:textStyle="bold" />
+	     <TextView
+	    	android:id="@+id/model"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="22sp"
+		    android:maxLines="1" />
+     </LinearLayout>
+     
+     
+     <!-- <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:paddingTop="1dip"
+	    android:paddingBottom="1dip" >
+	     <TextView
+	    	android:id="@+id/txtLongitude"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="22sp"
+		    android:maxLines="1"
+		    android:layout_marginLeft="0dp"
+		    android:layout_marginRight="5dp"
+		    android:text="@string/longitude"
+		    android:textStyle="bold" />
+	     <TextView
+	    	android:id="@+id/logitude"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="22sp"
+		    android:maxLines="1" />
+     </LinearLayout>
+     
+     
+     <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:paddingTop="1dip"
+	    android:paddingBottom="1dip" >
+	     <TextView
+	    	android:id="@+id/txtHeight"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="22sp"
+		    android:maxLines="1"
+		    android:layout_marginLeft="0dp"
+		    android:layout_marginRight="5dp"
+		    android:text="@string/height"
+		    android:textStyle="bold" />
+	     <TextView
+	    	android:id="@+id/height"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="22sp"
+		    android:maxLines="1" />
+     </LinearLayout>-->
+     
+     
+     <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:paddingTop="1dip"
+	    android:paddingBottom="1dip" >
+	     <TextView
+	    	android:id="@+id/txtPortOfDischarge"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="22sp"
+		    android:maxLines="1"
+		    android:layout_marginLeft="0dp"
+		    android:layout_marginRight="5dp"
+		    android:text="@string/port_of_discharge"
+		    android:textStyle="bold" />
+	     <TextView
+	    	android:id="@+id/port_of_discharge"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="22sp"
+		    android:maxLines="1" />
+     </LinearLayout>
+</LinearLayout>

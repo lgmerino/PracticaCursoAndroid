@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SC LINE</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="titleVoyage">NEXT VOYAGES</string>
+    <string name="voyage">VOYAGE:</string>
+    <string name="date">DATE:</string>
+    <string name="units_to_load">UNITS TO LOAD:</string>
+    <string name="load">LOAD</string>
+    <string name="vin">VIN - S/N:</string>
+    <string name="vin_dr">VIN - S/N (DR#):</string>
+    <string name="booking">BOOKING:</string>
+    <string name="customer">CUSTOMER:</string>
+    <string name="make">MAKE:</string>
+  	<string name="make_model">MAKE/MODEL:</string>
+    <string name="model">MODEL:</string>
+    <string name="longitude">LONGITUDE:</string>
+    <string name="width">WIDTH:</string>
+    <string name="height">HEIGHT:</string>
+    <string name="weight">WEIGHT:</string>
+    <string name="port_of_discharge">PORT OF DISCHARGE:</string>
+    <string name="list_units_loaded">UNITS LOADED</string>
+    <string name="list_units_pending">UNITS PENDING</string>
+    <string name="dr_number">DR #:</string>
+    <string name="loading_process_resume">PROCESS RESUME</string>
+    <string name="port">PORT:</string>
+    <string name="total_dr">TOTAL DRS:</string>
+    <string name="units_loaded">UNITS LOADED:</string>
+    <string name="first">FIRST:</string>
+    <string name="last">LAST:</string>
+    <string name="total_drs_to_load">DRS TO LOAD:</string>
+    <string name="list_units_load_pending">UNITS PENDING</string>
+    <string name="on_upgrade_error">ERROR UPGRADING DATABASE</string>
+    <string name="take_a_photography">PHOTO</string>
+    <string name="incidence">INCIDENCE</string>
+    <string name="error_unit_not_found">UNIT NOT FOUND</string>
+    <string name="save">SAVE</string>
+    <string name="cancel">CANCEL</string>
+    <string name="user">USER</string>
+    <string name="password">PASSWORD</string>
+    <string name="login">LOGIN</string>
+</resources>

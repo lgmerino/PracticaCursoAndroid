@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"
+     android:layout_marginLeft="5dp">
+
+    <TextView
+    	android:id="@+id/txtTitle"
+ 		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:maxLines="1"
+	    android:color="#000000"
+		android:background="#ffffff"
+		android:layout_marginTop="10dp"
+		android:layout_marginBottom="10dp"
+	    android:text="@string/loading_process_resume"
+	    android:textColor="#0000FF"
+		android:textSize="24sp"
+		android:textStyle="bold" />
+    
+    <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:paddingTop="1dip"
+	    android:paddingBottom="1dip" >
+	     <TextView
+	    	android:id="@+id/txtVoyage"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="22sp"
+		    android:maxLines="1"
+		    android:layout_marginLeft="0dp"
+		    android:layout_marginRight="5dp"
+		    android:text="@string/voyage"
+		    android:textStyle="bold" />
+	     <TextView
+	    	android:id="@+id/voyage"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="22sp"
+		    android:maxLines="1" />
+     </LinearLayout>
+     
+     
+     <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:paddingTop="1dip"
+	    android:paddingBottom="1dip" >
+	    <TextView
+		   	android:id="@+id/txtPort"
+			android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="22sp"
+		    android:maxLines="1"
+		    android:layout_marginLeft="0dp"
+		    android:layout_marginRight="5dp"
+		    android:text="@string/port"
+		    android:textStyle="bold" />
+	    <TextView
+	    	android:id="@+id/port"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="22sp"
+		    android:maxLines="1" />
+     </LinearLayout>
+     
+     
+     <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:paddingTop="1dip"
+	    android:paddingBottom="1dip" >
+	     <TextView
+	    	android:id="@+id/txtTotalDR"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="22sp"
+		    android:maxLines="1"
+		    android:layout_marginLeft="0dp"
+		    android:layout_marginRight="5dp"
+		    android:text="@string/total_dr"
+		    android:textStyle="bold" />
+	     <TextView
+	    	android:id="@+id/total_dr"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="22sp"
+		    android:maxLines="1" />
+	</LinearLayout>
+     
+     
+     <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:paddingTop="1dip"
+	    android:paddingBottom="1dip" >
+	     <TextView
+	    	android:id="@+id/txtUnitsLoaded"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="22sp"
+		    android:maxLines="1"
+		    android:layout_marginLeft="0dp"
+		    android:layout_marginRight="5dp"
+		    android:text="@string/units_loaded"
+		    android:textStyle="bold" />
+	     <TextView
+	    	android:id="@+id/units_loaded"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="22sp"
+		    android:maxLines="1" />
+     </LinearLayout>
+     
+     
+     <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:paddingTop="1dip"
+	    android:paddingBottom="1dip" >
+	     <TextView
+	    	android:id="@+id/txtFirst"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="22sp"
+		    android:maxLines="1"
+		    android:layout_marginLeft="0dp"
+		    android:layout_marginRight="5dp"
+		    android:text="@string/first"
+		    android:textStyle="bold" />
+	     <TextView
+	    	android:id="@+id/first"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="22sp"
+		    android:maxLines="1" />
+     </LinearLayout>
+     
+     
+     <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:paddingTop="1dip"
+	    android:paddingBottom="1dip" >
+	     <TextView
+	    	android:id="@+id/txtLast"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="22sp"
+		    android:maxLines="1"
+		    android:layout_marginLeft="0dp"
+		    android:layout_marginRight="5dp"
+		    android:text="@string/last"
+		    android:textStyle="bold" />
+	     <TextView
+	    	android:id="@+id/last"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="22sp"
+		    android:maxLines="1" />
+     </LinearLayout>
+     
+     
+     <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:paddingTop="1dip"
+	    android:paddingBottom="1dip" >
+	     <TextView
+	    	android:id="@+id/txtTotalDRsToLoad"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="22sp"
+		    android:maxLines="1"
+		    android:layout_marginLeft="0dp"
+		    android:layout_marginRight="5dp"
+		    android:text="@string/total_drs_to_load"
+		    android:textStyle="bold" />
+	     <TextView
+	    	android:id="@+id/total_drs_to_load"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="22sp"
+		    android:maxLines="1" />
+     </LinearLayout>
+</LinearLayout>

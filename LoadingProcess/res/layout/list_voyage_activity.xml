@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingTop="3dip"
+    android:paddingBottom="3dip" >
+
+    
+    <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:paddingTop="3dip"
+	    android:paddingBottom="3dip" >
+	    <TextView
+	    	android:id="@+id/txtVoyage"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="24sp"
+		    android:maxLines="1"
+		    android:text="@string/voyage"
+		    android:layout_marginLeft="10dp"
+		    android:layout_marginRight="5dp"  />
+	    <TextView
+	    	android:id="@+id/voyage"
+	 		android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="24sp"
+		    android:maxLines="1" />
+    </LinearLayout>
+    
+    <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:paddingTop="3dip"
+	    android:paddingBottom="3dip" >
+		<TextView
+	    	android:id="@+id/txtDate"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="24sp"
+		    android:maxLines="1"
+		    android:text="@string/date"
+		    android:layout_marginLeft="10dp"
+		    android:layout_marginRight="5dp" />
+		<TextView
+	    	android:id="@+id/date"
+	 		android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="24sp"
+		    android:maxLines="1" />
+	</LinearLayout>
+	
+
+    <LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:paddingTop="3dip"
+	    android:paddingBottom="3dip" >	
+		<TextView
+	    	android:id="@+id/txtUnits_to_load"
+	 		android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="24sp"
+		    android:maxLines="1"
+		    android:text="@string/units_to_load"
+		    android:layout_marginLeft="10dp"
+		    android:layout_marginRight="5dp" />
+		<TextView
+	    	android:id="@+id/units_to_load"
+	 		android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="24sp"
+		    android:maxLines="1" />   
+	</LinearLayout>
+		    
+</LinearLayout>

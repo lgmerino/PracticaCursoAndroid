@@ -1,0 +1,25 @@
+{
+	"count": 3,
+	"next": null,
+	"previous": null,
+	"results": [
+		{
+			"voyage": "1334",
+			"date": "12.MAY.2013",
+			"units_to_load": 120,
+			"loading_leg": 500
+		},
+		{
+			"voyage": "1335",
+			"date": "22.JUN.2013",
+			"units_to_load": 67,
+			"loading_leg": 501
+		},
+		{
+			"voyage": "1336",
+			"date": "2.AGO.2013",
+			"units_to_load": 54,
+			"loading_leg": 502
+		}
+	]
+}

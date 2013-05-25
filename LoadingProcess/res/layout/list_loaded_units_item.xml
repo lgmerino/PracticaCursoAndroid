@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingTop="3dip"
+    android:paddingBottom="3dip"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp" >
+
+    <LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:layout_marginLeft="10dp" >
+	    <LinearLayout
+		    android:orientation="horizontal"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:gravity="center_vertical"
+		   	android:layout_weight="1" >
+		    <TextView
+		    	android:id="@+id/txtVIN"
+		 		android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content" 
+			    android:textSize="24sp"
+			    android:maxLines="1"
+			    android:text="@string/vin"
+				android:textStyle="bold"
+				android:layout_marginRight="2dp" />
+		    <TextView
+		    	android:id="@+id/vin"
+		 		android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content" 
+			    android:textSize="24sp"
+			    android:maxLines="1"
+			    android:layout_marginRight="4dp"  />
+	    </LinearLayout>
+	    <LinearLayout
+		    android:orientation="horizontal"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:gravity="center_vertical"
+		    android:layout_weight="1" >
+			<TextView
+		    	android:id="@+id/txtDR"
+		 		android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content" 
+			    android:textSize="24sp"
+			    android:maxLines="1"
+			    android:text="@string/dr_number"
+			    android:textStyle="bold"
+			    android:layout_marginRight="2dp"  />
+			<TextView
+		    	android:id="@+id/dr_number"
+		 		android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content" 
+			    android:textSize="24sp"
+			    android:maxLines="1" />
+		</LinearLayout>
+	</LinearLayout>
+	
+    
+	<LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical"
+	    android:layout_marginLeft="10dp" >
+    	<LinearLayout
+		    android:orientation="horizontal"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:gravity="center_vertical"
+		    android:layout_weight="1" >
+			<!-- <TextView
+		    	android:id="@+id/txtMake"
+		 		android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content" 
+			    android:textSize="24sp"
+			    android:maxLines="1"
+			    android:text="@string/make"
+			    android:textStyle="bold"
+			    android:layout_marginRight="2dp"  /> -->
+			<TextView
+		    	android:id="@+id/txtModel"
+		 		android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content" 
+			    android:textSize="24sp"
+			    android:maxLines="1"
+			    android:text="@string/model"
+			    android:textStyle="bold"
+			    android:layout_marginRight="2dp"  />
+			<TextView
+		    	android:id="@+id/make"
+		 		android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content" 
+			    android:textSize="24sp"
+			    android:maxLines="1"
+			    android:layout_marginRight="4dp" />
+		</LinearLayout>
+    	
+		<LinearLayout
+		    android:orientation="horizontal"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:gravity="center_vertical"
+		    android:layout_weight="1" >
+			<TextView
+		    	android:id="@+id/model"
+		 		android:layout_width="wrap_content" 
+			    android:layout_height="wrap_content" 
+			    android:textSize="24sp"
+			    android:maxLines="1" /> 
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

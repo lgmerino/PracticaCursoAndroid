@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical">
+
+    <TextView
+    	android:id="@+id/txtVIN"
+ 		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:textSize="20sp"
+	    android:maxLines="1"
+	    android:layout_marginLeft="0dp"
+	    android:layout_marginRight="2dp"
+	    android:text="@string/vin_dr"
+	    android:textStyle="bold" />
+     <TextView
+    	android:id="@+id/vin_dr"
+ 		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:textSize="20sp"
+	    android:maxLines="1" />
+    
+     <TextView
+    	android:id="@+id/txtMakeModel"
+ 		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:textSize="20sp"
+	    android:maxLines="1"
+	    android:layout_marginLeft="0dp"
+	    android:layout_marginRight="2dp"
+	    android:layout_marginTop="5dp"
+	    android:text="@string/make_model"
+	    android:textStyle="bold" />
+     <TextView
+    	android:id="@+id/make"
+ 		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:textSize="20sp"
+	    android:maxLines="1" />
+     <TextView
+    	android:id="@+id/model"
+ 		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:textSize="20sp"
+	    android:maxLines="1" />
+     
+     <TextView
+    	android:id="@+id/txtBooking"
+ 		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:textSize="20sp"
+	    android:maxLines="1"
+	    android:layout_marginLeft="0dp"
+	    android:layout_marginRight="2dp"
+	    android:layout_marginTop="5dp"
+	    android:text="@string/booking"
+	    android:textStyle="bold" />
+     <TextView
+    	android:id="@+id/booking"
+ 		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:textSize="20sp"
+	    android:maxLines="1" />
+
+     <TextView
+    	android:id="@+id/txtPortOfDischarge"
+ 		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:textSize="20sp"
+	    android:maxLines="1"
+	    android:layout_marginLeft="0dp"
+	    android:layout_marginRight="2dp"
+	    android:layout_marginTop="5dp"
+	    android:text="@string/port_of_discharge"
+	    android:textStyle="bold" />
+     <TextView
+    	android:id="@+id/port_of_discharge"
+ 		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:textSize="20sp"
+	    android:maxLines="1" />
+     
+    <TextView
+	   	android:id="@+id/txtCustomer"
+		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:textSize="20sp"
+	    android:maxLines="1"
+	    android:layout_marginLeft="0dp"
+	    android:layout_marginRight="2dp"
+	    android:layout_marginTop="5dp"
+	    android:text="@string/customer"
+	    android:textStyle="bold" />
+    <TextView
+    	android:id="@+id/customer"
+ 		android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:textSize="20sp"
+	    android:maxLines="1" />
+    
+    <LinearLayout
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:orientation="horizontal"
+	     android:layout_marginTop="5dp">
+	     <TextView
+	    	android:id="@+id/txtLongitude"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="20sp"
+		    android:maxLines="1"
+		    android:layout_marginLeft="0dp"
+		    android:layout_marginRight="2dp"
+		    android:text="@string/longitude"
+		    android:textStyle="bold" />
+	     <TextView
+	    	android:id="@+id/longitude"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="20sp"
+		    android:maxLines="1" />
+     </LinearLayout>
+     
+     <LinearLayout
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:orientation="horizontal">
+	     <TextView
+	    	android:id="@+id/txtWidth"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="20sp"
+		    android:maxLines="1"
+		    android:layout_marginLeft="0dp"
+		    android:layout_marginRight="2dp"
+		    android:text="@string/width"
+		    android:textStyle="bold" />
+	     <TextView
+	    	android:id="@+id/width"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="20sp"
+		    android:maxLines="1" />
+	 </LinearLayout>
+    
+    <LinearLayout
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:orientation="horizontal">
+	     <TextView
+	    	android:id="@+id/txtHeight"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="20sp"
+		    android:maxLines="1"
+		    android:layout_marginLeft="0dp"
+		    android:layout_marginRight="2dp"
+		    android:text="@string/height"
+		    android:textStyle="bold" />
+	     <TextView
+	    	android:id="@+id/height"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="20sp"
+		    android:maxLines="1" />
+     </LinearLayout>
+     
+     <LinearLayout
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:orientation="horizontal">
+	     <TextView
+	    	android:id="@+id/txtWeight"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="20sp"
+		    android:maxLines="1"
+		    android:layout_marginLeft="0dp"
+		    android:layout_marginRight="2dp"
+		    android:text="@string/weight"
+		    android:textStyle="bold" />
+	     <TextView
+	    	android:id="@+id/weight"
+	 		android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:textSize="20sp"
+		    android:maxLines="1" />
+	</LinearLayout>
+
+</LinearLayout>

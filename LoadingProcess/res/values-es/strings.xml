@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="titleVoyage_es">PROXIMOS VIAJES</string>
+    <string name="voyage">VIAJE:</string>
+    <string name="date">FECHA:</string>
+    <string name="units_to_load">UNIDADES POR CARGAR:</string>
+    <string name="load">CARGAR</string>
+    <string name="customer">CLIENTE:</string>
+    <string name="make">MARCA:</string>
+  	<string name="make_model">MARCA/MODELO:</string>
+    <string name="model">MODELO:</string>
+    <string name="longitude">LONGITUD:</string>
+    <string name="width">ANCHURA:</string>
+    <string name="height">ALTURA:</string>
+    <string name="weight">PESO:</string>
+    <string name="port_of_discharge">PUERTO DE DESCARGA</string>
+    <string name="list_units_loaded">UNIDADES CARGADAS</string>
+    <string name="list_units_pending">UNIDADES PENDIENTES</string>
+    <string name="dr_number">NUM. DR:</string>
+    <string name="loading_process_resume">PRESUMEN</string>
+    <string name="port">PUERTO:</string>
+    <string name="total_dr">DRS EN TOTAL:</string>
+    <string name="units_loaded">UNIDADES CARGADAS:</string>
+    <string name="first">PRIMERA:</string>
+    <string name="last">ULTIMA:</string>
+    <string name="total_drs_to_load">DRS POR CARGAR:</string>
+    <string name="list_units_load_pending">UNIDADES PENDIENTES</string>
+    <string name="on_upgrade_error">ERROR ACTUALIZANDO BASE DE DATOS</string>
+    <string name="take_a_photography">FOTO</string>
+    <string name="incidence">INCIDENCIA</string>
+    <string name="error_unit_not_found">UNIDAD NO ENCONTRADA</string>
+    <string name="save">GUARDAR</string>
+    <string name="cancel">CANCELAR</string>
+    <string name="user">USUARIO</string>
+    <string name="password">CONTRASEÑA</string>
+    <string name="login">ENTRAR</string>
+</resources>

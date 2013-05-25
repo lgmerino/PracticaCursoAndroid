@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:id="@+id/LinearLayout01"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	
+    <TextView 
+	    android:id="@+id/txtTitle"
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/list_units_load_pending"
+		android:background="#ffffff"
+		android:layout_marginTop="10dp"
+		android:layout_marginBottom="10dp"
+		android:layout_marginLeft="10dp"
+		android:gravity="center"
+		android:textColor="#0000FF"
+		android:textSize="24sp"
+		android:textStyle="bold" />
+
+	<ListView android:id="@+id/listUnitsLoadPending"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:scrollbars="vertical" />		
+	
+</LinearLayout>

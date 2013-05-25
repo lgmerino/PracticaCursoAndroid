@@ -1,0 +1,52 @@
+{
+	"count": 3,
+	"next": null,
+	"previous": null,
+	"results": [
+		{
+			"booking": "SLSW033ALTCTG/01-13",
+			"vin": "1234567890A",
+			"customer": "SOFASA",
+			"make": "RENAULT",
+			"model": "DUSTER 4X4",
+			"longitude": "3.50",
+			"width": "1.80",
+			"height": "1.65",
+			"weight": "1500",
+			"port_of_dischage": "CARTAGENA",
+			"port_of_dischage_id": 2,
+			"dr_number": 2001,
+			"dr_id": 2001
+		},
+		{
+			"booking": "SLSW033ALTCTG01/13",
+			"vin": "1234567890B",
+			"customer": "SOFASA",
+			"make": "RENAULT",
+			"model": "DUSTER 4X4",
+			"longitude": "3.50",
+			"width": "1.80",
+			"height": "1.65",
+			"weight": "1500",
+			"port_of_dischage": "CARTAGENA",
+			"port_of_dischage_id": 2,
+			"dr_number": 2002,
+			"dr_id": 2002
+		},
+		{
+			"booking": "SLSW033ALTCTG/01-13",
+			"vin": "1234567890C",
+			"customer": "SOFASA",
+			"make": "RENAULT",
+			"model": "DUSTER 4X4",
+			"longitude": "3.50",
+			"width": "1.80",
+			"height": "1.65",
+			"weight": "1500",
+			"port_of_dischage": "CARTAGENA",
+			"port_of_dischage_id": 2,
+			"dr_number": 2003,
+			"dr_id": 2003
+		}
+	]
+}
